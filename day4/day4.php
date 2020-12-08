@@ -70,8 +70,6 @@ function part2() {
                                 if(preg_match($hclPattern, $passportArray['hcl'])) {
                                     if(preg_match($eclPattern, $passportArray['ecl'])) {
                                         if(preg_match($pidPattern, $passportArray['pid'])) {
-                                            var_dump($passportArray);
-
                                             $validPassports++;
                                         }
                                     }
