@@ -88,7 +88,7 @@ public class day5 {
     }
 
     private static void addToArray() {
-        int rowID = row * 8 + column;
+        int rowID = (row * 8) + column;
 
         computedResult.add(rowID);
     }
