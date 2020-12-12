@@ -12,7 +12,14 @@ public class day5 {
 
     static ArrayList<Double> computedResult = new ArrayList<>();
 
+
     public static void main(String[] args) throws Exception {
+        part1();
+
+        part2();
+    }
+
+    public static void part1() throws Exception {
         File file = new File("input.txt");
         BufferedReader br = new BufferedReader(new FileReader(file));
         String line;
@@ -33,8 +40,13 @@ public class day5 {
             column = 0;
         }
 
+        br.close();
         double idMax = Collections.max(computedResult);
         System.out.println(idMax);
+    }
+
+    public static void part2() {
+        // Need Help
     }
 
     private static void determineSeat(char[] letter, int index) {
