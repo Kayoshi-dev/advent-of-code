@@ -1,6 +1,0 @@
-D:\laragon\www\adventofcode\day6\bin\Debug\day6.exe
-D:\laragon\www\adventofcode\day6\bin\Debug\day6.pdb
-D:\laragon\www\adventofcode\day6\obj\Debug\day6.csprojAssemblyReference.cache
-D:\laragon\www\adventofcode\day6\obj\Debug\day6.exe
-D:\laragon\www\adventofcode\day6\obj\Debug\day6.pdb
-D:\laragon\www\adventofcode\day6\bin\Debug\input.txt
