@@ -2,7 +2,7 @@
 
 Day | Title | Stars |
 ------------ | ------------ | ------------- |
-1 | Sonar Sweep | :star: |
+1 | Sonar Sweep | :star: :star: |
 
 # Advent of Code 2020
 
