@@ -1,3 +1,9 @@
+# Advent of Code 2021
+
+Day | Title | Stars |
+------------ | ------------ | ------------- |
+1 | Sonar Sweep | :star: |
+
 # Advent of Code 2020
 
 Day | Title | Stars |
