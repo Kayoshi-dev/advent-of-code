@@ -3,7 +3,7 @@ const fs = require('fs');
 let lines;
 
 try {
-    const data = fs.readFileSync('input.txt', 'UTF-8');
+    const data = fs.readFileSync('input.txt', 'utf-8');
 
     lines = data.split(/\r?\n/);
 
