@@ -43,3 +43,52 @@ const part1 = () => {
 }
 
 part1();
+
+const part2 = () => {
+  const sum = lines.reduce((acc, current) => {
+    const [elf, goal] = current.split(' ');
+
+    // Need to lose
+    if(goal === "X") {
+      // Rock
+      if(elf === "A") {
+        return acc + 3;
+      }
+
+      // Paper
+      if(elf === "B") {
+        return acc + 1;
+      }
+
+      else {
+        return acc + 2;
+      }
+    }
+
+    // Need to draw
+    if(goal === "Y") {
+      return acc + 3 + elf.charCodeAt(0) - 64;
+    }
+
+    // Need to win
+    if(goal === "Z") {
+      // Rock
+      if(elf === "A") {
+        return acc + 8;
+      }
+
+      // Paper
+      if(elf === "B") {
+        return acc + 9;
+      }
+
+      else {
+        return acc + 7;
+      }
+    }
+  }, 0);
+
+  console.log(sum);
+}
+
+part2();

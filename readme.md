@@ -1,8 +1,17 @@
+# Advent of Code 2022
+
+Day | Title | Stars |
+------------ | ------------ | ------------- |
+1 | Calorie Counting | :star: :star: |
+2 | Rock Paper Scissors | :star: :star: |
+
 # Advent of Code 2021
 
 Day | Title | Stars |
 ------------ | ------------ | ------------- |
 1 | Sonar Sweep | :star: :star: |
+2 | Dive! | :star: :star: |
+3 | Binary Diagnostic | :star: |
 
 # Advent of Code 2020
 
