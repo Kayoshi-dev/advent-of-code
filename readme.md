@@ -1,3 +1,9 @@
+# Advent of Code 2023
+
+| Day | Title                   | Stars         |
+| --- | ----------------------- | ------------- |
+| 1   | Trebuchet?!             | :star: :star: |
+
 # Advent of Code 2022
 
 | Day | Title                   | Stars         |
@@ -7,6 +13,7 @@
 | 3   | Rucksack Reorganization | :star: :star: |
 | 4   | Camp Cleanup            | :star: :star: |
 | 5   | Supply Stacks           | :star: :star: |
+| 6   | Tuning Trouble          | :star: :star: |
 
 # Advent of Code 2021
 
