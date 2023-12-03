@@ -1,4 +1,4 @@
-import fs from "fs";
+import * as fs from "fs";
 
 let lines: string[];
 
@@ -91,4 +91,11 @@ const part2 = () => {
   console.log(x);
 };
 
+let times = [];
+
+const t0 = performance.now();
+for (let index = 0; index < 100; index++) {}
 part2();
+const t1 = performance.now();
+
+console.log(`Time it takes to run the function: ${t1 - t0} ms`);
