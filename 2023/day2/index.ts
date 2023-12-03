@@ -53,3 +53,37 @@ const part1 = () => {
 };
 
 part1();
+
+const part2 = () => {
+  const sum: number[] = [];
+  lines.map((line) => {
+    const group = line.match(/\b(?:[0-9]|1[0-9]|2[0-9]) (red|blue|green)\b/g);
+
+    const bag = {
+      green: 0,
+      red: 0,
+      blue: 0,
+    };
+
+    group?.forEach((gr) => {
+      const [num, color] = gr.split(" ");
+
+      if (+num > bag[color as keyof typeof bag]) {
+        bag[color as keyof typeof bag] = +num;
+      }
+    });
+
+    sum.push(
+      Object.values(bag).reduce((acc, cur) => {
+        if (acc === 0) {
+          return acc + cur;
+        }
+        return acc * cur;
+      }, 0)
+    );
+  });
+
+  console.log(sum.reduce((acc, cur) => acc + cur));
+};
+
+part2();
