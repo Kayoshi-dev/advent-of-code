@@ -1,8 +1,15 @@
+# Advent of Code 2024
+
+| Day | Title                   | Stars         |
+| --- | ----------------------- | ------------- |
+| 1   | Historian Hysteria      | :star: :star: |
+
 # Advent of Code 2023
 
 | Day | Title                   | Stars         |
 | --- | ----------------------- | ------------- |
 | 1   | Trebuchet?!             | :star: :star: |
+| 2   | Cube Conundrum          | :star: :star: |
 
 # Advent of Code 2022
 

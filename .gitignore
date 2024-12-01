@@ -1,3 +1,4 @@
 .idea
 2020/day5/out/
-2023/*/node_modules
+*/*/node_modules
+*/*/pnpm-lock.yaml
