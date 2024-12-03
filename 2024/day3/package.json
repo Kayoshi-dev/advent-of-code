@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.2"
+  },
+  "scripts": {
+    "dev": "tsnd --respawn index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.1"
+  }
+}
