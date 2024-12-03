@@ -55,3 +55,44 @@ const part1 = () => {
 };
 
 part1();
+
+const part2 = () => {
+  let safeReports = 0;
+
+  const isValid = (numbers: number[]): boolean => {
+    let isIncreasing = numbers[0] < numbers[1];
+
+    for (let i = 1; i < numbers.length; i++) {
+      const diff = Math.abs(numbers[i] - numbers[i - 1]);
+      const isIncreasingNow = numbers[i] > numbers[i - 1];
+
+      if (diff < 1 || diff > 3 || isIncreasingNow !== isIncreasing) {
+        return false;
+      }
+    }
+
+    return true;
+  };
+
+  lines.forEach((line) => {
+    const numbers = line.split(" ").map(Number);
+
+    if (isValid(numbers)) {
+      safeReports++;
+      return;
+    }
+
+    for (let i = 0; i < numbers.length; i++) {
+      const filteredNumbers = numbers.filter((_, index) => index !== i);
+
+      if (isValid(filteredNumbers)) {
+        safeReports++;
+        return;
+      }
+    }
+  });
+
+  console.log(safeReports);
+};
+
+part2();
